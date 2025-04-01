@@ -1,4 +1,3 @@
-```markdown
 # Dotfiles
 
 This repository contains my personal configuration files for various applications, all managed using [GNU Stow](https://www.gnu.org/software/stow/). Using stow makes it simple to maintain and deploy my environment across multiple machines.
@@ -94,4 +93,3 @@ dotfiles/
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
