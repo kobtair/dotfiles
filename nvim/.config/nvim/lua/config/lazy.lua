@@ -50,6 +50,15 @@ require("neo-tree").setup({
         }
       })
 
+local null_ls = require("null-ls")
+
+null_ls.setup({
+  sources = {
+    null_ls.builtins.diagnostics.eslint_d,
+  },
+})
+
+
 
 local builtin = require("telescope.builtin")
 vim.keymap.set('n', '<C-p>', builtin.find_files, {})

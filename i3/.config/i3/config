@@ -44,7 +44,10 @@ exec --no-startup-id dunst -config "$HOME/.config/dunst/dunstrc"
 exec --no-startup-id i3-battery-popup -s "/home/aaqib/.config/dunst/notifications/sounds/i3-battery-popup.wav"
 exec --no-startup-id flatpak run com.tomjwatson.Emote
 exec --no-startup-id lxpolkit
-exec --no-startup-id i3-msg "workspace 10; exec stayfree-desktop"
+exec --no-startup-id redshift -l 33.6:73.0 -t 6500:3500 -g 0.8 -m randr
+# Start Super Productivity on workspace 10
+exec --no-startup-id i3-msg "workspace 10; exec superproductivity"
+
 # exec_always --no-startup-id /usr/local/bin/start-animated-wallpaper.sh
 
 
@@ -88,21 +91,32 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal -e "zsh && tmux"
+bindsym $mod+Return exec kitty -e tmux
 bindsym $mod+space exec rofi -show combi
 
 # kill focused window
 bindsym $mod+Shift+q kill
 bindsym $mod+Shift+s exec flameshot gui
 
+# Toggle Night Light ON
+bindsym $mod+F9 exec redshift -O 3500  
+
+# Toggle Night Light OFF (Restore normal color)
+bindsym $mod+F10 exec redshift -x  
+
+# Increase Warmth (Reduce blue light)
+bindsym $mod+Shift+F9 exec redshift -O 3000  
+
+# Decrease Warmth (More blue light)
+bindsym $mod+Shift+F10 exec redshift -O 4500  
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+#bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
-# bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
+bindcode $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+h focus left
