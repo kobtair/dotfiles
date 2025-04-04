@@ -34,7 +34,7 @@ exec --no-startup-id /usr/libexec/gsd-xsettings
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
-exec --no-startup-id picom --corner-radius 10 -f -D 5
+exec --no-startup-id picom --vsync --backend glx -f -D 5 --corner-radius 10
 exec --no-startup-id flameshot
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Scrolling Distance" -114, -114
 exec --no-startup-id syndaemon -i 1.0 -d -t
