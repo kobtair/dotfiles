@@ -1,4 +1,4 @@
-# Dotfiles
+I# Dotfiles
 
 This repository contains my personal configuration files for various applications, all managed using [GNU Stow](https://www.gnu.org/software/stow/). Using stow makes it simple to maintain and deploy my environment across multiple machines.
 
@@ -89,6 +89,8 @@ dotfiles/
 
 - This repository is tailored to my personal setup. You are free to use it as a reference or adapt it to your own workflow.
 - When adding new configurations, ensure that each package follows the structure required by stow (i.e., include the `.config` folder inside each package directory).
+
+For later reference: [journal entry, 04-16](https://chat.openai.com/share/your-chat-id-here)
 
 ## License
 
