@@ -90,7 +90,7 @@ dotfiles/
 - This repository is tailored to my personal setup. You are free to use it as a reference or adapt it to your own workflow.
 - When adding new configurations, ensure that each package follows the structure required by stow (i.e., include the `.config` folder inside each package directory).
 
-For later reference: [journal entry, 04-16](https://chat.openai.com/share/your-chat-id-here)
+For later reference: [journal entry, 04-16](https://chatgpt.com/share/67ff7451-5394-800d-bd7b-f6d5d79836f4)
 
 ## License
 
