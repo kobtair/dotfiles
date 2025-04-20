@@ -91,6 +91,10 @@ dotfiles/
 - When adding new configurations, ensure that each package follows the structure required by stow (i.e., include the `.config` folder inside each package directory).
 
 For later reference: [journal entry, 04-16](https://chatgpt.com/share/67ff7451-5394-800d-bd7b-f6d5d79836f4)
+ [journal entry, 04-21](https://chatgpt.com/share/67ff7451-5394-800d-bd7b-f6d5d79836f4)
+  [yth](https://music.youtube.com/playlist?list=PLIo-27ytQCjPyYzUvG8iGOHptJjpvfnZJ)
+   [ytso](https://music.youtube.com/playlist?list=PLIo-27ytQCjM-tulqp2VSdUH5AeHFFuUR)
+   [ytf](https://music.youtube.com/playlist?list=PLIo-27ytQCjMwHSl_RAd5iPeKq6ePY7n-)
 
 ## License
 
