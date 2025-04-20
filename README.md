@@ -95,6 +95,7 @@ For later reference: [journal entry, 04-16](https://chatgpt.com/share/67ff7451-5
   [yth](https://music.youtube.com/playlist?list=PLIo-27ytQCjPyYzUvG8iGOHptJjpvfnZJ)
    [ytso](https://music.youtube.com/playlist?list=PLIo-27ytQCjM-tulqp2VSdUH5AeHFFuUR)
    [ytst](https://music.youtube.com/playlist?list=PLIo-27ytQCjMwHSl_RAd5iPeKq6ePY7n-)
+   [od](https://nustedupk0-my.sharepoint.com/:f:/g/personal/mimran_bse2021mcs_student_nust_edu_pk/EpLQRXSm-2BAvXXlVNKi5TYB98mkX2uX5zuyc0jmG_gIRg?e=audvHX)
 
 ## License
 
