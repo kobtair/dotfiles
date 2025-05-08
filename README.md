@@ -99,6 +99,8 @@ For later reference: [journal entry, 04-16](https://chatgpt.com/share/67ff7451-5
    [sd](https://github.com/donnemartin/system-design-prime)
    [ostep](https://github.com/ossu/computer-science/blob/master/coursepages/ostep/README.md)
 
+   fcu-24
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
